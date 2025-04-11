@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\william\\source\\repos\\TicketManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\source\\repos\\ticketmanager\\domian\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:domian\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\source\\repos\\ticketmanager\\view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|C:\\Users\\william\\source\\repos\\TicketManager\\view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\source\\repos\\ticketmanager\\domian\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:domian\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\source\\repos\\ticketmanager\\view\\employeeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view\\employeeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\william\\source\\repos\\TicketManager\\Domian\\Ticket.cs",
+              "RelativeDocumentMoniker": "Domian\\Ticket.cs",
+              "ToolTip": "C:\\Users\\william\\source\\repos\\TicketManager\\Domian\\Ticket.cs",
+              "RelativeToolTip": "Domian\\Ticket.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:24:15.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketsView.cs",
+              "DocumentMoniker": "C:\\Users\\william\\source\\repos\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeDocumentMoniker": "View.Tickets\\TicketsView.cs",
+              "ToolTip": "C:\\Users\\william\\source\\repos\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeToolTip": "View.Tickets\\TicketsView.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAArwHcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:58:31.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\william\\source\\repos\\TicketManager\\Domian\\Employee.cs",
+              "RelativeDocumentMoniker": "Domian\\Employee.cs",
+              "ToolTip": "C:\\Users\\william\\source\\repos\\TicketManager\\Domian\\Employee.cs",
+              "RelativeToolTip": "Domian\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:46:21.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketsView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\william\\source\\repos\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeDocumentMoniker": "View.Tickets\\TicketsView.cs",
+              "ToolTip": "C:\\Users\\william\\source\\repos\\TicketManager\\View.Tickets\\TicketsView.cs [Projeto]",
+              "RelativeToolTip": "View.Tickets\\TicketsView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:51:32.289Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\william\\source\\repos\\TicketManager\\View\\EmployeeView.cs",
+              "RelativeDocumentMoniker": "View\\EmployeeView.cs",
+              "ToolTip": "C:\\Users\\william\\source\\repos\\TicketManager\\View\\EmployeeView.cs [Projeto]",
+              "RelativeToolTip": "View\\EmployeeView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:46:28.096Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

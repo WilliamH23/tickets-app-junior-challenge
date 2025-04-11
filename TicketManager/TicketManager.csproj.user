@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="View.Tickets\EditTicketView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View.Tickets\InsertTicketView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View.Tickets\TicketsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\EditEmployeesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\InsertEmployeeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\EmployeeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

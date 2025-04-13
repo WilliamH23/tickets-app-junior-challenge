@@ -21,9 +21,6 @@ namespace TicketManager.Domian
         }
         public Ticket(Employee employee, int quantity)
         {
-            if (employee.situation == 'I')
-                throw new InvalidOperationException("Não é possível " +
-                    "adicionar tickets a um colaborador inativo.");
             this.employeeId = employee.id;
             this.quantity = quantity;
             situation = 'A';

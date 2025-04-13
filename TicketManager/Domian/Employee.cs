@@ -15,11 +15,8 @@ namespace TicketManager.Domian
         public string cpf { get; set; }
         public char situation { get; set; }
         public DateTime DateEdit { get; set; }
-        public Employee() { }
         public Employee(string name, string cpf)
         {
-            if (string.IsNullOrEmpty(name)) throw new ArgumentException("Nome é obrigatório.");
-            if (cpf.Length != 11) throw new ArgumentException("O CPF deve ter 11 caracteres.");
             this.name = name;
             this.cpf = cpf;
             situation = 'A';

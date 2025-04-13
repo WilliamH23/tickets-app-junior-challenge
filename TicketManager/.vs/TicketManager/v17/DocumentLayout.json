@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiago\\Documents\\tickets-app-junior-challenge\\TicketManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\tiago\\documents\\tickets-app-junior-challenge\\ticketmanager\\view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|C:\\Users\\tiago\\Documents\\tickets-app-junior-challenge\\TicketManager\\view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketsView.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeDocumentMoniker": "View.Tickets\\TicketsView.cs",
+              "ToolTip": "C:\\Users\\tiago\\Documents\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeToolTip": "View.Tickets\\TicketsView.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAArwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T16:25:42.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketsView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeDocumentMoniker": "View.Tickets\\TicketsView.cs",
+              "ToolTip": "C:\\Users\\tiago\\Documents\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs [Projeto]",
+              "RelativeToolTip": "View.Tickets\\TicketsView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:28:41.266Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

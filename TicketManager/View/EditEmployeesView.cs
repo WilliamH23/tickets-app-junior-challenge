@@ -44,7 +44,7 @@ namespace TicketManager.View
 
         private void concludeButton_Click(object sender, EventArgs e)
         {
-            if (controller.Edit(@object, nameEmployeeLabel.Text, cpfLabel.Text, situacao: situacaoComboBox.GetItemText(situacaoComboBox.SelectedIndex)[0]))
+            if (controller.Edit(@object, nameEmployeeLabel.Text, cpfLabel.Text, situation: situacaoComboBox.GetItemText(situacaoComboBox.SelectedIndex)[0]))
             {
                 this.DialogResult = DialogResult.OK;
                 this.Close();

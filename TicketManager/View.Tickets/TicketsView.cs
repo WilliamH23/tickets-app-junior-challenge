@@ -92,7 +92,8 @@ namespace TicketManager.View
                     fill();
                 }
             }
-            else {
+            else
+            {
                 MessageBox.Show("Não é possivel inserir ticket em Colaborador com situação 'I'- Inativo.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
@@ -100,18 +101,21 @@ namespace TicketManager.View
 
         private void editButton_Click(object sender, EventArgs e)
         {
-
             if (dataGridTickets.SelectedRows.Count > 0)
             {
                 if (@object.situation == 'I')
                 {
-                    MessageBox.Show("Você esta alterando um Ticket com situação 'I'- Inativo.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Você esta alterando um Ticket de colaborador com situação 'I'- Inativo.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                EditTicketView editTicketView = new EditTicketView((Ticket)dataGridTickets.SelectedRows[0].DataBoundItem);
-                if (editTicketView.ShowDialog() == DialogResult.OK)
+                else
                 {
-                    fill();
+                    EditTicketView editTicketView = new EditTicketView((Ticket)dataGridTickets.SelectedRows[0].DataBoundItem);
+                    if (editTicketView.ShowDialog() == DialogResult.OK)
+                    {
+                        fill();
+                    }
                 }
+
             }
             else
             {
@@ -121,7 +125,7 @@ namespace TicketManager.View
 
         private void filtroDataCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            filterDate();
         }
         private void filterDate()
         {
@@ -169,6 +173,11 @@ namespace TicketManager.View
         }
 
         private void inicioDateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            filterDate();
+        }
+
+        private void inicioDateTimePicker_ValueChanged_1(object sender, EventArgs e)
         {
             filterDate();
         }

@@ -42,20 +42,21 @@ namespace TicketManager.View.Tickets
 
         private void concludeButton_Click(object sender, EventArgs e)
         {
-            string oper = "";
-            if (operacaoComboBox.SelectedIndex == 1)
-            {
-                oper = "SUM";
-            }
-            else
-            {
-                oper = "SUBTRACT";
-            }
-            if (controller.Edit(@object, quantLabel.Text, oper, situacaoComboBox.GetItemText(situacaoComboBox.SelectedIndex)[0]))
-            {
-                this.DialogResult = DialogResult.OK;
-                this.Close();
-            }
+                string oper = "";
+                if (operacaoComboBox.SelectedIndex == 1)
+                {
+                    oper = "SUM";
+                }
+                else
+                {
+                    oper = "SUBTRACT";
+                }
+                if (controller.Edit(@object, quantLabel.Text, oper, situacaoComboBox.GetItemText(situacaoComboBox.SelectedIndex)[0]))
+                {
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+            
         }
 
         private void quantLabel_Click(object sender, EventArgs e)

@@ -15,33 +15,37 @@ namespace TicketManager.ControllerDomain
         {
             context = new TicketManagerContext();
         }
-        public bool Insert(Domian.Employee employee, String quant )
+        public bool Insert(Employee employee, String quantity )
         {
-        if(!int.TryParse(quant,out int intQuant)){
-            throw new ArgumentException("Preencha corretamente a quantidade!");
+            if (employee.situation == 'I')
+            {
+                MessageBox.Show("Erro ao inserir o Ticket!\nColaborador com situação I - Inativo");
+                return false;
             }
-            var @object = new Ticket(employee,intQuant);
+            if (!int.TryParse(quantity,out int intQuantity)){
+                MessageBox.Show("Preencha corretamente a quantidade!");
+                return false;
+            }
+            var @object = new Ticket(employee,intQuantity);
             context.Tickets.Add(@object);
             context.SaveChanges();
             return true;
         }
-
-        public int Contar()
+        public bool Edit(Ticket @object, String quantityOperation, string operation, char situation)
         {
-            return context.Employees.Count();
-        }
-
-        public bool Edit(Ticket @object, String quantOperation, string operation, char situation)
-        {
-            if (!int.TryParse(quantOperation, out int intQuantOparation))
+            if (@object.situation == 'I')
+            {
+                MessageBox.Show("Erro ao editar o Ticket!\nColaborador com situação I - Inativo");
+                return false;
+            }
+            if (!int.TryParse(quantityOperation, out int intQuantOparation))
             {
                 throw new ArgumentException("Preencha corretamente a quantidade!");
             }
             if (operation == "SUM")
             {
                 @object.quantity += intQuantOparation;
-            }
-            else {
+            }else {
                 if (@object.quantity - intQuantOparation >= 0)
                 {
                     @object.quantity -= intQuantOparation;

@@ -113,7 +113,7 @@
             filtroDataCheckBox.Text = "Filtrar por data.";
             filtroDataCheckBox.UseVisualStyleBackColor = true;
             filtroDataCheckBox.CheckedChanged += filtroDataCheckBox_CheckedChanged;
-            filtroDataCheckBox.Click += filtroDataCheckBox_Click;
+            filtroDataCheckBox.Click += filtroDataCheckBox_CheckedChanged;
             // 
             // inicioDateTimePicker
             // 
@@ -124,7 +124,7 @@
             inicioDateTimePicker.Size = new Size(245, 23);
             inicioDateTimePicker.TabIndex = 13;
             inicioDateTimePicker.Visible = false;
-            inicioDateTimePicker.ValueChanged += inicioDateTimePicker_ValueChanged;
+            inicioDateTimePicker.ValueChanged += inicioDateTimePicker_ValueChanged_1;
             // 
             // fimDateTimePicker
             // 

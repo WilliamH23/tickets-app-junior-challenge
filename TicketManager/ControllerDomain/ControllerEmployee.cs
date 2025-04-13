@@ -19,47 +19,45 @@ namespace TicketManager.Controller
         }
         public bool Insert(string name, string cpf)
         {
-            if (string.IsNullOrWhiteSpace(name)){
+            if (IsCpfAlreadyRegistered(name))
+            {
+                MessageBox.Show("CPF já cadastrado!");
+                return false;
+            }
+            if (name== "Nome do colaborador" || string.IsNullOrWhiteSpace(name))
+            {
                 MessageBox.Show("Favor preencher o nome do Colaborador.");
                 return false;
             }
-
- 
-
-            var @object = new Domian.Employee(name, cpf);
+            var @object = new Employee(name, cpf);
             context.Employees.Add(@object);
             context.SaveChanges();
             return true;
         }
-        public Domian.Employee GetLastInsertedEmployee()
+        public bool IsCpfAlreadyRegistered(string cpf)
+        {
+            var existingEmployee = context.Employees.FirstOrDefault(e => e.cpf == cpf);
+            return existingEmployee != null;
+        }
+
+        public Employee GetLastInsertedEmployee()
         {
             return context.Employees
                 .OrderByDescending(e => e.id)
                 .FirstOrDefault();
         }
-        public List<Domian.Employee> Listar()
-        {
-            return context.Employees.Where(e => e != null).ToList();
-        }
-
-        public int Contar()
-        {
-            return context.Employees.Count();
-        }
-
-        public bool Edit(Domian.Employee @object, string name, string cpf, char situacao)
+        public bool Edit(Employee @object, string name, string cpf, char situation)
         {
             if (string.IsNullOrWhiteSpace(name)){
                 MessageBox.Show("Favor preencher o nome do Colaborador.");
                 return false;
             }
-
             @object.name = name;
             @object.cpf = cpf;
-            if (situacao == '0') {
+            if (situation == '0') {
                 @object.situation = 'A';
             }
-            if (situacao == '1')
+            if (situation == '1')
             {
                 @object.situation = 'I';
             }

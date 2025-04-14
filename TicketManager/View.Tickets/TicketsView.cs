@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TicketManager.Context;
+using TicketManager.Controller;
+using TicketManager.ControllerDomain;
 using TicketManager.Domian;
 using TicketManager.View.Tickets;
 
@@ -20,6 +23,7 @@ namespace TicketManager.View
         private Employee @object;
         private List<Ticket> fullTicketsList;
         private List<Ticket> listaFiltrada;
+        private readonly ControllerEmployee controllerEmp = new();
         //Contrutor da tela criando a, recebendo o colaborador, armazenando ele e carregando suas informações. 
         public TicketsView(Employee employee)
         {
@@ -27,6 +31,7 @@ namespace TicketManager.View
             context = new TicketManagerContext();
             @object = employee;
             fill();
+            totalTicketslabel.Text = totalTicketslabel.Text + controllerEmp.contTotal(employee);
         }
         //Rotina de carregamento de informações do objeto(Employee) em questão.
         private void fill()
@@ -158,8 +163,8 @@ namespace TicketManager.View
             filterDate();
             fill();
         }
-       //Chamadas de rotina de filtragem(Sempre que houver alteração no seletor de data
-       //regarrega as informacoes).
+        //Chamadas de rotina de filtragem(Sempre que houver alteração no seletor de data
+        //regarrega as informacoes).
         private void inicioDateTimePicker_ValueChanged(object sender, EventArgs e)
         {
             filterDate();
@@ -167,6 +172,11 @@ namespace TicketManager.View
         private void inicioDateTimePicker_ValueChanged_1(object sender, EventArgs e)
         {
             filterDate();
+        }
+
+        private void TicketsView_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

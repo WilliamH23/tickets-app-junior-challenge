@@ -38,6 +38,7 @@
             fimDateTimePicker = new DateTimePicker();
             dataInicialLabel = new Label();
             dataFinalLabel = new Label();
+            totalTicketslabel = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridTickets).BeginInit();
             SuspendLayout();
             // 
@@ -160,11 +161,23 @@
             dataFinalLabel.Text = "Data final filtro:";
             dataFinalLabel.Visible = false;
             // 
+            // totalTicketslabel
+            // 
+            totalTicketslabel.AutoSize = true;
+            totalTicketslabel.Enabled = false;
+            totalTicketslabel.Font = new Font("Calibri", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            totalTicketslabel.Location = new Point(14, 68);
+            totalTicketslabel.Name = "totalTicketslabel";
+            totalTicketslabel.Size = new Size(94, 15);
+            totalTicketslabel.TabIndex = 17;
+            totalTicketslabel.Text = "Total de Tickets:";
+            // 
             // TicketsView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(830, 524);
+            Controls.Add(totalTicketslabel);
             Controls.Add(dataFinalLabel);
             Controls.Add(dataInicialLabel);
             Controls.Add(fimDateTimePicker);
@@ -180,6 +193,7 @@
             Name = "TicketsView";
             StartPosition = FormStartPosition.CenterParent;
             Text = "TicketManager / Menu de Tickets";
+            Load += TicketsView_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridTickets).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -197,5 +211,6 @@
         private DateTimePicker fimDateTimePicker;
         private Label dataInicialLabel;
         private Label dataFinalLabel;
+        private Label totalTicketslabel;
     }
 }

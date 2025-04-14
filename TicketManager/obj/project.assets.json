@@ -3530,11 +3530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\william\\Master\\tickets-app-junior-challenge\\TicketManager\\TicketManager.csproj",
+      "projectUniqueName": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\TicketManager.csproj",
       "projectName": "TicketManager",
-      "projectPath": "C:\\Users\\william\\Master\\tickets-app-junior-challenge\\TicketManager\\TicketManager.csproj",
+      "projectPath": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\TicketManager.csproj",
       "packagesPath": "C:\\Users\\william\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\william\\Master\\tickets-app-junior-challenge\\TicketManager\\obj\\",
+      "outputPath": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

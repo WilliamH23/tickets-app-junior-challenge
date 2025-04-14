@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjRjFy0XJ1M=",
+  "dgSpecHash": "c5fIxJcuPw8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\william\\Master\\tickets-app-junior-challenge\\TicketManager\\TicketManager.csproj",
+  "projectFilePath": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\TicketManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\william\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\william\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

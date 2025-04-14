@@ -74,5 +74,11 @@ namespace TicketManager.Controller
                 return false;
             }
         }
+
+        internal string contTotal(Employee employee)
+        {
+            var tickets = context.Tickets.Where(ticket => ticket.employeeId == employee.id).ToList();
+            return ""+tickets.Sum(ticket => ticket.quantity);
+        }
     }
 }

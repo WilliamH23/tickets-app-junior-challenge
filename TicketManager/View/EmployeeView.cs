@@ -17,6 +17,7 @@ namespace TicketManager
             context = new TicketManagerContext();
             reTable();
         }
+        //rotina para recarregar a tabela do Menu Colaboradores.
         private void reTable()
         {
 
@@ -27,6 +28,8 @@ namespace TicketManager
             setColumn();
 
         }
+        //Realiza configuração da Tabela.
+        //(Como deve ser e quais propriedades de Colaboradores devem ser exibidos).
         public void setColumn()
         {
             dataGridEmployees.Columns["dateEdit"].Visible = false;
@@ -43,9 +46,10 @@ namespace TicketManager
             dataGridEmployees.Columns["Name"].FillWeight = 40;
             dataGridEmployees.Columns["cpf"].FillWeight = 20;
             dataGridEmployees.Columns["situation"].FillWeight = 30;
-            dataGridEmployees.Columns["cpf"].DefaultCellStyle.Format = "@\"000\\.000\\.000\\-00\"";
             dataGridEmployees.DefaultCellStyle.Padding = new Padding(6, 4, 6, 4);
         }
+        //Ação de click do botão de Inserir colaborador novo na base de dados.
+        //Confirma o sucesso e recarrega as informações do DB.
         private void insertButton_Click(object sender, EventArgs e)
         {
             InsertEmployeeView insertEmployeeView = new InsertEmployeeView();
@@ -54,7 +58,9 @@ namespace TicketManager
                 reTable();
             }
         }
-
+        //Ação de click do botão de Edição.
+        //Verifica se algo foi selecionado e avisa o usuario se o colaborador esta com situação Inativo.
+        //Confirma o sucesso da operação e recarrega a tabela.
         private void editButton_Click(object sender, EventArgs e)
         {
             if (dataGridEmployees.SelectedRows.Count > 0)
@@ -75,7 +81,7 @@ namespace TicketManager
                 MessageBox.Show("Nenhum item selecionado.");
             }
         }
-
+        //TextBox utilizado como ferramenta de Busca no Sistema(Sempre que alterado uma nova varredura).
         private void findEmployeesTextBox_TextChanged(object sender, EventArgs employees)
         {
             var termo = findEmployeesTextBox.Text.ToLower();
@@ -87,7 +93,8 @@ namespace TicketManager
                 .ToList();
             setColumn();
         }
-
+        //Se houver duplo click na tabela de Employees e algum colaborador estiver totalmente selecionado,
+        //Exibe uma nova tela tela dos Tickets do colaborador em especifico(Passa o selecionado na tabela).
         private void dataGridEmployees_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (dataGridEmployees.SelectedRows.Count == 1)
@@ -108,15 +115,11 @@ namespace TicketManager
                 }
             }
         }
-
+        //Ação de click em TextBox de procurar os employes,
+        //Assim que o usuario digitar substitui o text informativo(Serve para limpar o campo). 
         private void findEmployeesTextBox_Click(object sender, EventArgs e)
         {
             ((TextBox)sender).SelectAll();
-        }
-
-        private void MainView_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

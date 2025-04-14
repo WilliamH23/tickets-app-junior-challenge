@@ -17,11 +17,7 @@ namespace TicketManager.ControllerDomain
         }
         public bool Insert(Employee employee, String quantity )
         {
-            if (employee.situation == 'I')
-            {
-                MessageBox.Show("Erro ao inserir o Ticket!\nColaborador com situação I - Inativo");
-                return false;
-            }
+
             if (!int.TryParse(quantity,out int intQuantity)){
                 MessageBox.Show("Preencha corretamente a quantidade!");
                 return false;

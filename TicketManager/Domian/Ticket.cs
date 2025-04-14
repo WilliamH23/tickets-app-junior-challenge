@@ -7,15 +7,18 @@ using System.Threading.Tasks;
 
 namespace TicketManager.Domian
 {
+    //Criação do objeto Ticket e propriedades do objeto.
     public class Ticket
     {
         [Key]
-        public int id { get; set; }
-        public  long employeeId { get; set; } 
-        public int quantity { get; set; }
-        public char situation { get; set; } 
-        public DateTime dateEdit{ get; set; }
-
+        public int id { get; set; }//Chave primeira autoincrementada(Nunca é a mesma)
+        public  long employeeId { get; set; }//Id do colaborador para identifica a qual dos cadastrados
+                                             //o ticket pertence. 
+        public int quantity { get; set; }//Quantidade do ticket
+        public char situation { get; set; }//Um status de I ou A para diferenciar
+        public DateTime dateEdit{ get; set; }//campo que registra a ultima alteração realizada.
+        
+        //Contrutores do objeto. 
         public Ticket() { 
         
         }
@@ -23,9 +26,8 @@ namespace TicketManager.Domian
         {
             this.employeeId = employee.id;
             this.quantity = quantity;
-            situation = 'A';
-
-            dateEdit = DateTime.Now;
+            situation = 'A';//Sempre A - (Ativo) é preestabelecido na sua criação
+            dateEdit = DateTime.Now;//Registro da data de alteração.
         }
     }
 }

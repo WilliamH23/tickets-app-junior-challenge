@@ -135,7 +135,6 @@ namespace TicketManager
             Name = "EmployeeView";
             StartPosition = FormStartPosition.CenterParent;
             Text = "TicketManager / Menu dos Colaboradores.";
-            Load += MainView_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridEmployees).EndInit();
             ResumeLayout(false);
             PerformLayout();

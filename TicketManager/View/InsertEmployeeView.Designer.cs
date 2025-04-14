@@ -31,7 +31,7 @@
             nameEmployeeLabel = new TextBox();
             nameTextBox = new TextBox();
             cpfTextBox = new TextBox();
-            cpfLabel = new TextBox();
+            cpfEmployeeLabel = new TextBox();
             concludeButton = new Button();
             canelButton = new Button();
             ticketsQuantTextBox = new TextBox();
@@ -81,17 +81,17 @@
             cpfTextBox.TabIndex = 38;
             cpfTextBox.Text = "CPF*(apenas numeros):";
             // 
-            // cpfLabel
+            // cpfEmployeeLabel
             // 
-            cpfLabel.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cpfLabel.ForeColor = SystemColors.WindowFrame;
-            cpfLabel.Location = new Point(164, 47);
-            cpfLabel.Margin = new Padding(7);
-            cpfLabel.Name = "cpfLabel";
-            cpfLabel.Size = new Size(174, 27);
-            cpfLabel.TabIndex = 37;
-            cpfLabel.Text = "Cadastro de pessoa fisíca";
-            cpfLabel.Click += cpfLabel_Click;
+            cpfEmployeeLabel.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cpfEmployeeLabel.ForeColor = SystemColors.WindowFrame;
+            cpfEmployeeLabel.Location = new Point(164, 47);
+            cpfEmployeeLabel.Margin = new Padding(7);
+            cpfEmployeeLabel.Name = "cpfEmployeeLabel";
+            cpfEmployeeLabel.Size = new Size(174, 27);
+            cpfEmployeeLabel.TabIndex = 37;
+            cpfEmployeeLabel.Text = "Cadastro de pessoa fisíca";
+            cpfEmployeeLabel.Click += cpfLabel_Click;
             // 
             // concludeButton
             // 
@@ -103,7 +103,7 @@
             concludeButton.TabIndex = 34;
             concludeButton.Text = "Concluir";
             concludeButton.UseVisualStyleBackColor = true;
-            concludeButton.Click += concludeButton_Click_1;
+            concludeButton.Click += concludeButton_Click;
             // 
             // canelButton
             // 
@@ -115,6 +115,7 @@
             canelButton.TabIndex = 33;
             canelButton.Text = "Cancelar";
             canelButton.UseVisualStyleBackColor = true;
+            canelButton.Click += canelButton_Click_1;
             // 
             // ticketsQuantTextBox
             // 
@@ -165,7 +166,7 @@
             ClientSize = new Size(344, 164);
             Controls.Add(campoTextBox);
             Controls.Add(cpfTextBox);
-            Controls.Add(cpfLabel);
+            Controls.Add(cpfEmployeeLabel);
             Controls.Add(concludeButton);
             Controls.Add(canelButton);
             Controls.Add(ticketsQuantTextBox);
@@ -188,7 +189,7 @@
         private TextBox setorText;
         private TextBox setorLabel;
         private TextBox cpfTextBox;
-        private TextBox cpfLabel;
+        private TextBox cpfEmployeeLabel;
         private Button concludeButton;
         private Button canelButton;
         private TextBox ticketsQuantTextBox;

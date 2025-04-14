@@ -19,7 +19,7 @@ namespace TicketManager.Controller
         }
         public bool Insert(string name, string cpf)
         {
-            if (IsCpfAlreadyRegistered(name))
+            if (IsCpfAlreadyRegistered(cpf))
             {
                 MessageBox.Show("CPF já cadastrado!");
                 return false;

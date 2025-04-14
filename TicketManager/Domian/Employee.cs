@@ -7,19 +7,21 @@ using System.Threading.Tasks;
 
 namespace TicketManager.Domian
 {
+    //Criação do objeto Employee e propriedades do objeto.
     public class Employee
     {
         [Key]
-        public long id { get; set; }
-        public string name { get; set; }
-        public string cpf { get; set; }
-        public char situation { get; set; }
-        public DateTime DateEdit { get; set; }
+        public long id { get; set; }//Id do Colaborador que é Chave Primaria e tambem autoincrementada.
+        public string name { get; set; }//Nome do colaborador.
+        public string cpf { get; set; }//CPF do colaborador.
+        public char situation { get; set; }//Situação do colaborador I - (Inativo) ou A - (Ativo).
+        public DateTime DateEdit { get; set; }//Ultima data de alteração(Upgrade) do colaborador.
+        //Contrutor do colaborador
         public Employee(string name, string cpf)
         {
             this.name = name;
             this.cpf = cpf;
-            situation = 'A';
+            situation = 'A';//Situação sempre pré-estabelecida como A - (Ativo) na criação do Colaborador.
             DateEdit = DateTime.Now;
         }
     }

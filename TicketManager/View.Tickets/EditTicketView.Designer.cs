@@ -62,6 +62,7 @@
             canelButton.TabIndex = 39;
             canelButton.Text = "Cancelar";
             canelButton.UseVisualStyleBackColor = true;
+            canelButton.Click += canelButton_Click;
             // 
             // textBox
             // 
@@ -111,7 +112,6 @@
             situacaoComboBox.Name = "situacaoComboBox";
             situacaoComboBox.Size = new Size(167, 23);
             situacaoComboBox.TabIndex = 41;
-            situacaoComboBox.SelectedIndexChanged += comboBox_SelectedIndexChanged;
             // 
             // textBox2
             // 

@@ -112,8 +112,7 @@
             filtroDataCheckBox.TabIndex = 12;
             filtroDataCheckBox.Text = "Filtrar por data.";
             filtroDataCheckBox.UseVisualStyleBackColor = true;
-            filtroDataCheckBox.CheckedChanged += filtroDataCheckBox_CheckedChanged;
-            filtroDataCheckBox.Click += filtroDataCheckBox_CheckedChanged;
+            filtroDataCheckBox.Click += filtroDataCheckBox_Click;
             // 
             // inicioDateTimePicker
             // 
@@ -181,7 +180,6 @@
             Name = "TicketsView";
             StartPosition = FormStartPosition.CenterParent;
             Text = "TicketManager / Menu de Tickets";
-            Load += AddTickets_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridTickets).EndInit();
             ResumeLayout(false);
             PerformLayout();

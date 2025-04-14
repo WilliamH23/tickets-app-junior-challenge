@@ -11,6 +11,7 @@ using System.IO;
 using Microsoft.VisualBasic.ApplicationServices;
 namespace TicketManager.Context
 {
+    //Configurando o gerenciador de Banco de dados do Sistema.
     public class TicketManagerContext : DbContext
     {
         public DbSet<Domian.Employee> Employees { get; set; }

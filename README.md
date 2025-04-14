@@ -29,31 +29,34 @@ Abra o terminal no diretório do projeto ou no Visual Studio e execute:
 dotnet ef database update
 dotnet run
 ```
-##Como utilizar:
-###Tela principal(Menu de Colaboradores):
-####Nesta tela é possivel realizar as seguintes funções.
+## Como utilizar:
+
+### Tela principal(Menu de Colaboradores):
+#### Nesta tela é possivel realizar as seguintes funções.
 - Cadastro de colaboradores
 - Edição de colaboradores
 - Visualizar todos os colaboradores cadastradoes bem como buscar(filtrar) por nome
 - Com o colaborador selecionado e um duplo click é possivel abrir o menu de tickets do colaborador em quesão
-###Tela dos tickets(Menu Tickets):
-####Nesta tela é possivel realizar as seguintes funções.
--Visualizar tickets entregues ao colaborador
--Adicionar bem como sunbtrair quantias de tickets do colaborador.
--Filtrar por data selecionando "Filtrar por data. e posteriormente o periodo de inicio e fim de filtragem"
--Visualizar o total de tickets que o colaborador possui.
-##Analises e considerações:
+### Tela dos tickets(Menu Tickets):
+
+#### Nesta tela é possivel realizar as seguintes funções.
+- Visualizar tickets entregues ao colaborador
+- Adicionar bem como sunbtrair quantias de tickets do colaborador.
+- Filtrar por data selecionando "Filtrar por data. e posteriormente o periodo de inicio e fim de filtragem"
+- Visualizar o total de tickets que o colaborador possui.
+
+## Analises e considerações:
 
 Por se tratar de um sistema com requisitos simples e bem definidos, sua implementação não demandou grande tempo nem investimento em testes automatizados. Entretanto, em um cenário realista, eu buscaria entender mais a fundo as regras de negócio da empresa para expandir as funcionalidades e tornar o sistema ainda mais útil.
 
 Possíveis melhorias e expansões:
 Geração de relatórios: 
--Exportar dados em PDF.
--Gerar informativos com previsões de uso de tickets. Isso permitiria otimizar recursos como alimentos, tempo e dinheiro com base nos dados salvos.
+- Exportar dados em PDF.
+- Gerar informativos com previsões de uso de tickets. Isso permitiria otimizar recursos como alimentos, tempo e dinheiro com base nos dados salvos.
 
 Novas funcionalidades:
--Exclusão de registros obsoletos, como colaboradores desligados ou tickets muito antigos.
--Histórico de alterações para fins de auditoria.
+- Exclusão de registros obsoletos, como colaboradores desligados ou tickets muito antigos.
+- Histórico de alterações para fins de auditoria.
 -Notificações automáticas para lembrar de atualizações ou alertar sobre baixa quantidade de tickets.
 
 As possibilidades de expansão são inúmeras. No entanto, considerando o caráter avaliativo deste projeto, as funcionalidades implementadas foram focadas em atender aos requisitos principais e demonstrar domínio nas tecnologias solicitadas.

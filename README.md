@@ -16,8 +16,7 @@ O sitema em questão foi desenvolvido para realizar gestão da distruibuição e
 ### Pré-requisitos
 
 - **.NET SDK 9**
-- **Visual Studio 2022**
-- 
+- **Visual Studio 2022** 
 ### Como rodar o codigo?
 Clone o sistema atravez deste comando no terminal:
 ```bash

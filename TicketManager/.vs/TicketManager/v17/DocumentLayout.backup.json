@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\desktop\\teste\\tickets-app-junior-challenge\\ticketmanager\\controllerdomain\\controlleremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:controllerdomain\\controlleremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\desktop\\teste\\tickets-app-junior-challenge\\ticketmanager\\view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\desktop\\teste\\tickets-app-junior-challenge\\ticketmanager\\view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\desktop\\teste\\tickets-app-junior-challenge\\ticketmanager\\view.tickets\\editticketview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\editticketview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|c:\\users\\william\\desktop\\teste\\tickets-app-junior-challenge\\ticketmanager\\view.tickets\\ticketsview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\ticketsview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9455DA0B-080B-4A2D-8E45-C0D22FE83DC0}|TicketManager.csproj|solutionrelative:view.tickets\\ticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,37 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ControllerEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\ControllerDomain\\ControllerEmployee.cs",
-              "RelativeDocumentMoniker": "ControllerDomain\\ControllerEmployee.cs",
-              "ToolTip": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\ControllerDomain\\ControllerEmployee.cs",
-              "RelativeToolTip": "ControllerDomain\\ControllerEmployee.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE8AAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T02:01:03.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TicketsView.cs",
-              "DocumentMoniker": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
-              "RelativeDocumentMoniker": "View.Tickets\\TicketsView.cs",
-              "ToolTip": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
-              "RelativeToolTip": "View.Tickets\\TicketsView.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCEAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T01:55:29.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TicketsView.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
               "RelativeDocumentMoniker": "View.Tickets\\TicketsView.cs",
@@ -61,6 +39,45 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T01:53:53.117Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketsView.cs",
+              "DocumentMoniker": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeDocumentMoniker": "View.Tickets\\TicketsView.cs",
+              "ToolTip": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.cs",
+              "RelativeToolTip": "View.Tickets\\TicketsView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T01:55:29.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketsView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.Designer.cs",
+              "RelativeDocumentMoniker": "View.Tickets\\TicketsView.Designer.cs",
+              "ToolTip": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\TicketsView.Designer.cs",
+              "RelativeToolTip": "View.Tickets\\TicketsView.Designer.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowMIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:28:53.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditTicketView.cs",
+              "DocumentMoniker": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\EditTicketView.cs",
+              "RelativeDocumentMoniker": "View.Tickets\\EditTicketView.cs",
+              "ToolTip": "C:\\Users\\william\\Desktop\\Teste\\tickets-app-junior-challenge\\TicketManager\\View.Tickets\\EditTicketView.cs",
+              "RelativeToolTip": "View.Tickets\\EditTicketView.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAMwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:27:10.637Z",
+              "EditorCaption": ""
             }
           ]
         }

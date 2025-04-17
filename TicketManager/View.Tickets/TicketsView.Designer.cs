@@ -193,7 +193,6 @@
             Name = "TicketsView";
             StartPosition = FormStartPosition.CenterParent;
             Text = "TicketManager / Menu de Tickets";
-            Load += TicketsView_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridTickets).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -102,7 +102,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(166, 20);
             textBox1.TabIndex = 42;
-            textBox1.Text = "Situação do colaborador:";
+            textBox1.Text = "Situação do Ticket:";
             // 
             // situacaoComboBox
             // 

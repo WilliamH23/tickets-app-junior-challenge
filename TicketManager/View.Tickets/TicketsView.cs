@@ -31,11 +31,12 @@ namespace TicketManager.View
             context = new TicketManagerContext();
             @object = employee;
             fill();
-            totalTicketslabel.Text = totalTicketslabel.Text + controllerEmp.contTotal(employee);
+           
         }
         //Rotina de carregamento de informações do objeto(Employee) em questão.
         private void fill()
         {
+            totalTicketslabel.Text = "Total de Tickets: " + controllerEmp.contTotal(@object);
             fullTicketsList = context.Tickets
                 .Where(t => t.employeeId == @object.id)
                 .ToList();
@@ -174,9 +175,5 @@ namespace TicketManager.View
             filterDate();
         }
 
-        private void TicketsView_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
